@@ -79,10 +79,12 @@
   "scripts": {
     "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
     "pre-install-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion",
+      "@composer install --working-dir=patternlab"
     ],
     "pre-update-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion",
+      "@composer install --working-dir=patternlab"
     ],
     "post-install-cmd": [
       "@drupal-scaffold",
