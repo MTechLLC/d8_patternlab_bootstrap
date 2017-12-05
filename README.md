@@ -1,4 +1,4 @@
-# D8 Composer-based starter project
+# Drupal 8 Pattern Lab Bootstrap
 
 [![Build Status](https://travis-ci.org/MTechLLC/d8_starter.svg?branch=master)](https://travis-ci.org/MTechLLC/d8_starter)
 [![Circle CI](https://circleci.com/gh/MTechLLC/d8_starter.svg?style=svg)](https://circleci.com/gh/MTechLLC/d8_starter)
@@ -34,9 +34,9 @@ So after running composer, you need to run vagrant.
 After vagrant, then the fun starts. Here's a small sample.
 
 ```
-drush @d8starter.dev uli # Create a one-time login link.
-drush @d8starter.dev mi --all # Migrate all the things.
-drush @d8starter.dev ssh # SSH into the vagrant box.
+drush @dd8patternlab.dev uli # Create a one-time login link.
+drush @d8patternlab.dev mi --all # Migrate all the things.
+drush @d8patternlab.dev ssh # SSH into the vagrant box.
 ```
 
 ## What does the composer template do?
