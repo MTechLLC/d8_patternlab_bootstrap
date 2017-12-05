@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/MTechLLC/d8_starter.svg?branch=master)](https://travis-ci.org/MTechLLC/d8_starter)
 [![Circle CI](https://circleci.com/gh/MTechLLC/d8_starter.svg?style=svg)](https://circleci.com/gh/MTechLLC/d8_starter)
 
-[Forked from https://github.com/mtechllc/d8_starter](https://github.com/mtechllc/d8_starter)
+[Forked from https://github.com/MTechLLC/d8_patternlab_bootstrap](https://github.com/mtechllc/d8_starter)
 
 This project template should provide a kickstart for managing your site
 dependencies with [Composer](https://getcomposer.org/).
@@ -34,7 +34,7 @@ So after running composer, you need to run vagrant.
 After vagrant, then the fun starts. Here's a small sample.
 
 ```
-drush @dd8patternlab.dev uli # Create a one-time login link.
+drush @d8patternlab.dev uli # Create a one-time login link.
 drush @d8patternlab.dev mi --all # Migrate all the things.
 drush @d8patternlab.dev ssh # SSH into the vagrant box.
 ```
