@@ -1,0 +1,43 @@
+uuid: 91fffe1d-a189-4d92-a3b0-5f0175cbd943
+langcode: en
+status: true
+dependencies:
+  module:
+    - editor
+    - image
+_core:
+  default_config_hash: vetSoh2fZ6M9Tw9Bs0MImojKRekaPD_wRpa36Joxxhk
+name: 'Full HTML'
+format: full_html
+weight: 1
+filters:
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: 8
+    settings: {  }
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: true
+    weight: 9
+    settings: {  }
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  editor_file_reference:
+    id: editor_file_reference
+    provider: editor
+    status: true
+    weight: 11
+    settings: {  }
+  filter_image_style:
+    id: filter_image_style
+    provider: image
+    status: true
+    weight: 12
+    settings: {  }
