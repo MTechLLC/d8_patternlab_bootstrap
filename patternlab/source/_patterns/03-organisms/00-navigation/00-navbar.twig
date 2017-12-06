@@ -1,0 +1,29 @@
+{# Navbar #}
+{%
+  set navbar_classes = [
+  'navbar',
+  ]
+%}
+<header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
+  {% if not navbar_attributes.hasClass('container') %}
+  <nav class="{{ container }}">
+  {% endif %}
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {{ brand }}
+    </div>
+
+    <div id="navbar-collapse" class="collapse navbar-collapse">
+      {{ navigation_menus }}
+    </div>
+  {% if not navbar_attributes.hasClass('container') %}
+  </nav>
+  {% endif %}
+
+</header>

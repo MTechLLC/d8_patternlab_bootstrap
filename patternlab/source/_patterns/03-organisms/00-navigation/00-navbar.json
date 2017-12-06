@@ -1,0 +1,129 @@
+{
+  "container": "container",
+  "navbar_attributes": {
+    "Attribute()": {
+      "class": [
+        "navbar-default"
+      ]
+    }
+  },
+  "brand": {
+    "include()": {
+      "pattern": "molecules-menu.html",
+      "with": {
+        "items": [
+          {
+            "title": "",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-drupal fa-2x"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "attributes": {
+          "Attribute()": {
+            "class": [
+              "navbar-nav"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "navigation_menus": {
+    "join()": [
+      {
+        "include()": {
+          "pattern": "molecules-menu.html",
+          "with": {
+            "items": [
+              {
+                "title": "Home",
+                "url": {
+                  "Url()": {
+                    "url": "#",
+                    "options": {
+                      "attributes": {
+                        "class": "fa fa-home"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "title": "Tours",
+                "url": {
+                  "Url()": {
+                    "url": "#",
+                    "options": {
+                      "attributes": {
+                        "class": "fa fa-sun-o"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "title": "Packages",
+                "url": {
+                  "Url()": {
+                    "url": "#",
+                    "options": {
+                      "attributes": {
+                        "class": "fa shopping-bag"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "title": "Additional",
+                "url": {
+                  "Url()": {
+                    "url": "#",
+                    "options": {
+                      "attributes": {
+                        "class": "fa fa-buysellads"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "title": "Reservations",
+                "url": {
+                  "Url()": {
+                    "url": "#",
+                    "options": {
+                      "attributes": {
+                        "class": "fa fa-clone"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "attributes": {
+              "Attribute()": {
+                "class": [
+                  "navbar-nav"
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "include()": {
+          "pattern": "molecules-block-language-switch.html"
+        }
+      }
+    ]
+  }
+}

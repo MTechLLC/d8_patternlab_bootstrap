@@ -1,0 +1,18 @@
+{
+  "header": {
+    "include()": {
+      "pattern": "organisms-navbar",
+      "with": {
+        "navbar_attributes": {
+          "Attribute()": {
+            "class": [
+              "navigation-style",
+              "navbar-default",
+              "navigation-clean"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{%
+set languages_classes = [
+	'nav',
+	'navbar-nav',
+	'navbar-right',
+	'language-switch'
+]
+%}
+
+{% include 'molecules-links.html' with {
+	'links': links,
+	'attributes': attributes.addClass(languages_classes),
+} only %}
