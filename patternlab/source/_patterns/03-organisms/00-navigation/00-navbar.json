@@ -57,7 +57,7 @@
                 }
               },
               {
-                "title": "Tours",
+                "title": "About",
                 "url": {
                   "Url()": {
                     "url": "#",
@@ -70,7 +70,7 @@
                 }
               },
               {
-                "title": "Packages",
+                "title": "Services",
                 "url": {
                   "Url()": {
                     "url": "#",
@@ -83,7 +83,7 @@
                 }
               },
               {
-                "title": "Additional",
+                "title": "Portfolio",
                 "url": {
                   "Url()": {
                     "url": "#",
@@ -96,7 +96,7 @@
                 }
               },
               {
-                "title": "Reservations",
+                "title": "Contact",
                 "url": {
                   "Url()": {
                     "url": "#",
