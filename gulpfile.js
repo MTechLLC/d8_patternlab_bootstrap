@@ -41,7 +41,7 @@ gulp.task('watch', function () {
 
 gulp.task('node', function(callback) {
   runSequence(
-    ['bootstrap', 'bootstrap-fonts', 'awesome', 'awesome-fonts'],
+    ['bootstrap', 'bootstrap-js', 'jquery', 'bootstrap-fonts', 'awesome', 'awesome-fonts'],
     callback
   );
 });
@@ -49,6 +49,16 @@ gulp.task('node', function(callback) {
 gulp.task('bootstrap', function() {
   return gulp.src(node_modules + '/bootstrap-sass/assets/stylesheets/**/*.*', { base: node_modules + '/bootstrap-sass/assets/stylesheets' })
     .pipe(gulp.dest('./sass/'+ bootstrap));
+});
+
+gulp.task('bootstrap-js', function() {
+  return gulp.src(node_modules + '/bootstrap-sass/assets/javascripts/bootstrap.js', { base: node_modules + '/bootstrap-sass/assets/javascripts' })
+    .pipe(gulp.dest(pattenlab + 'js'));
+});
+
+gulp.task('jquery', function() {
+  return gulp.src(node_modules + '/jquery/dist/jquery.js', { base: node_modules + '/jquery/dist' })
+    .pipe(gulp.dest(pattenlab + 'js'));
 });
 
 gulp.task('bootstrap-fonts', function() {

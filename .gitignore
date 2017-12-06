@@ -7,4 +7,6 @@ patternlab/public/*
 patternlab/source/fonts
 patternlab/source/css/font-awesome.min.css
 patternlab/source/css/style.css
+patternlab/source/js/jquery.js
+patternlab/source/js/bootstrap.js
 sass/bootstrap
