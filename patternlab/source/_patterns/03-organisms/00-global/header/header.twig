@@ -1,0 +1,16 @@
+{#{{ page.header }}#}
+
+<section {{ attributes.addClass('header-bg') }}>
+    {{ header }}
+{#{{ title_prefix }}
+<div class="container">
+    <div class="row">
+        <div class="text-align-center">
+            {% if label %}
+                <h1{{ title_attributes.addClass('block-title') }}>{{ label }}</h1>
+            {% endif %}
+            <small>{{ content.body }}</small>
+        </div>
+    </div>
+</div>#}
+</section>

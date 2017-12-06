@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+node_modules
+.DS_Store
+patternlab/vendor
+patternlab/public/*
+patternlab/source/fonts
+patternlab/source/css/font-awesome.min.css
+patternlab/source/css/style.css
+sass/bootstrap

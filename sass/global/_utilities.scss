@@ -1,0 +1,8 @@
+@mixin text-center-flex() {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center-flex {
+  @include text-center-flex();
+}

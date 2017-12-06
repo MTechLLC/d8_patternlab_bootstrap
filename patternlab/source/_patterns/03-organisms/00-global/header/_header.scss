@@ -1,0 +1,59 @@
+
+.header-bg {
+  width: auto;
+  /*background-color: #88be14;*/
+  background-image: url("../../../../images/banner_test/25.jpg");
+  /*padding: 10px;*/
+  background-size: 100% 100%;
+}
+
+@media (max-width: 320px) {
+  .header-bg {
+    height: 150px;
+  }
+}
+
+@media (min-width: 320px) {
+  .header-bg {
+    height: 150px;
+  }
+}
+
+@media (min-width: 480px) {
+  .header-bg {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-bg {
+    height: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav li {
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-bg {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-bg {
+    height: 600px;
+  }
+}
+
+.navigation-clean {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+
+
+

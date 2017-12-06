@@ -1,0 +1,60 @@
+{
+  "center_footer": {
+    "Attribute()": {
+      "class":["footer","container", "center-footer"]
+    }
+  },
+  "footer": {
+    "include()": {
+      "pattern": "molecules-menu.html",
+      "with": {
+        "items": [
+          {
+            "title": "",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-facebook-official fa-2x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-instagram fa-2x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-twitter fa-2x"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "attributes": {
+          "Attribute()": {
+            "class":["navbar-nav"]
+          }
+        }
+      }
+    }
+  }
+}
