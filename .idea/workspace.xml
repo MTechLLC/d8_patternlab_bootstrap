@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78365ddd-c345-45ee-93df-8ea91b14e83f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/config/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/config/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/core/console" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/core/server/router.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/core/src/PatternLab/Installer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/bower_components/EventEmitter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/bower_components/classList.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/bower_components/hogan-3.0.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/bower_components/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/bower_components/jwerty.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/bower_components/prism.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/bower_components/script.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/bower_components/typeahead.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/css/prism-typeahead.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/css/prism-typeahead.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/css/styleguide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/css/styleguide.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/fonts/icomoon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/fonts/icomoon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/fonts/icomoon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/fonts/icomoon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/js/patternlab-pattern.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/js/patternlab-pattern.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/js/patternlab-viewer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/public/styleguide/js/patternlab-viewer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_annotations/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_data/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_data/listitems.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_layouts/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_macros/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_macros/forms.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_meta/_00-head.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_meta/_01-foot.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/01-global/00-colors.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/01-global/01-fonts.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/01-global/02-animations.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/01-global/03-visibility.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/02-text/00-headings.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/02-text/01-paragraph.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/02-text/02-blockquote.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/02-text/03-inline-elements.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/02-text/04-time.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/02-text/05-preformatted-text.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/02-text/06-hr.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/03-lists/00-unordered.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/03-lists/01-ordered.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/03-lists/02-definition.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/04-images/00-logo.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/04-images/01-landscape-4x3.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/04-images/02-landscape-16x9.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/04-images/03-square.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/04-images/04-avatar.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/04-images/05-icons.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/04-images/06-loading-icon.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/04-images/07-favicon.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/05-forms/00-text-fields.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/05-forms/01-select-menu.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/05-forms/02-checkbox.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/05-forms/03-radio-buttons.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/05-forms/04-html5-inputs.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/06-buttons/00-buttons.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/07-tables/00-table.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/08-media/_00-video.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/08-media/_01-audio.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/00-text/00-byline.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/00-text/01-address.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/00-text/02-heading-group.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/00-text/03-blockquote-with-citation.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/00-text/04-intro-text.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/01-layout/00-one-up.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/01-layout/01-two-up.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/01-layout/02-three-up.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/01-layout/03-four-up.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/02-blocks/00-media-block.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/02-blocks/01-block-headline-byline.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/02-blocks/02-block-hero.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/02-blocks/03-block-thumb-headline.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/02-blocks/04-block-headline.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/02-blocks/05-block-inset.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/03-media/00-figure-with-caption.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/04-forms/00-search.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/04-forms/01-comment-form.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/04-forms/02-newsletter.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/05-navigation/00-primary-nav.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/05-navigation/01-footer-nav.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/05-navigation/02-breadcrumbs.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/05-navigation/03-pagination.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/05-navigation/04-tabs.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/06-components/00-social-share.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/06-components/01-accordion.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/06-components/02-single-comment.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/07-messaging/00-alert.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/02-organisms/00-global/00-header.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/02-organisms/00-global/01-footer.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/02-organisms/01-article/00-article-body.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/02-organisms/02-comments/00-comment-thread.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/02-organisms/03-sections/00-latest-posts.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/02-organisms/03-sections/01-recent-tweets.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/02-organisms/03-sections/02-related-posts.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/03-templates/00-layouts/00-site.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/03-templates/00-layouts/01-page-1col.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/03-templates/00-layouts/01-page-2col.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/03-templates/01-homepage.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/03-templates/02-blog.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/03-templates/03-article-2col.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/03-templates/03-article.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/04-pages/00-homepage.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/04-pages/00-homepage.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/04-pages/00-homepage~emergency.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/04-pages/01-blog.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/04-pages/01-blog.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/04-pages/02-article.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/04-pages/02-article.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/filters/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/filters/clean_class.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/filters/clean_id.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/filters/format_date.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/filters/placeholder.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/filters/render.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/filters/safe_join.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/filters/t.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/filters/without.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/functions/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/functions/link.function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/functions/path.function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/functions/url.function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/tags/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/tags/trans.tag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_twig-components/tests/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/pattern-scaffolding.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_global-classes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_headings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_links.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_lists.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/base/_text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/generic/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/generic/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/generic/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_accordion.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_article.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_blocks.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_carousels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_comments.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_header.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_lists.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_messaging.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_sections.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/scss/objects/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/fonts/icons.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/fonts/icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/fonts/icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/fonts/icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/fonts/icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/favicon_16x16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/favicon_32x32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/fpo_16x9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/fpo_4x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/fpo_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/fpo_square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/landscape-16x9-mountains.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-gear.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-ivy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-river.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-yosemite.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/tout-4x3-climber.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/tout-4x3-climbers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/tout-4x3-stream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/js/fitvids.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/js/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/js/jquery-2.0.0b2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/sass/style.scss" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DrupalConfiguration" enabled="true" version="8">
+    <drupalPath />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>doctrine</find>
+      <find>: &quot;doctrine</find>
+      <find>doctrine/annotations</find>
+      <find>doctrine/common</find>
+      <find>drus</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/drupalvm/post-provision.sh" />
+        <option value="$PROJECT_DIR$/vendor/geerlingguy/drupal-vm/default.config.yml" />
+        <option value="$PROJECT_DIR$/circle.yml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/patternlab/vendor/twig/twig/lib/Twig/Environment.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/patternlab/source/_layouts/base.twig" />
+        <option value="$PROJECT_DIR$/patternlab/composer.json" />
+        <option value="$PROJECT_DIR$/patternlab/public/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/patternlab/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/patternlab/source/sass/style.scss" />
+        <option value="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/04-forms/00-search.twig" />
+        <option value="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/05-navigation/00-primary-nav.twig" />
+        <option value="$PROJECT_DIR$/patternlab/source/sass/component/_node.scss" />
+        <option value="$PROJECT_DIR$/patternlab/source/_meta/_00-head.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="d8_patternlab_bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8_patternlab_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="d8_patternlab_bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8_patternlab_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="patternlab" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="d8_patternlab_bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8_patternlab_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="patternlab" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="d8_patternlab_bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8_patternlab_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="patternlab" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="d8_patternlab_bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8_patternlab_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="patternlab" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_meta" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/patternlab/source/css" />
+      <recent name="$PROJECT_DIR$/patternlab/source/fonts" />
+      <recent name="$PROJECT_DIR$/patternlab/source" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/patternlab/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78365ddd-c345-45ee-93df-8ea91b14e83f" name="Default" comment="" />
+      <created>1510765441418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510765441418</updated>
+      <workItem from="1510765449209" duration="1472000" />
+      <workItem from="1511561580443" duration="780000" />
+      <workItem from="1512485703332" duration="7578000" />
+      <workItem from="1512495835944" duration="5845000" />
+      <workItem from="1512507137179" duration="1801000" />
+      <workItem from="1512513268674" duration="2100000" />
+      <workItem from="1512571042362" duration="330000" />
+      <workItem from="1512572385688" duration="2398000" />
+      <workItem from="1512575630107" duration="5611000" />
+      <workItem from="1512582640300" duration="97000" />
+      <workItem from="1512590180572" duration="420000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28432000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20607029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/03-templates/01-page-homepage.twig" />
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/03-templates/06-page-second-level-navigation.twig" />
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/03-templates/06-page-second-level-navigation.json" />
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/05-forms/input/input--submit.json" />
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/05-forms/input/input--submit.twig" />
+    <entry file="file://$PROJECT_DIR$/source/_data/listitems.json" />
+    <entry file="file://$PROJECT_DIR$/source/_data/data.json" />
+    <entry file="file://$PROJECT_DIR$/source/_patterns/00-atoms/01-global/00-colors.twig" />
+    <entry file="file://$PROJECT_DIR$/composer.json" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/css/scss/base/_tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/css/scss/base/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/css/scss/base/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/css/scss/base/_animation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_data/listitems.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/03-templates/01-homepage.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/03-templates/03-article-2col.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/02-organisms/03-sections/02-related-posts.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/04-pages/00-homepage.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/04-pages/00-homepage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../d8_starter/web/themes/custom/custom_theme/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/css/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_data/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="90" column="7" lean-forward="false" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/sass/bootstrap/assets/stylesheets/bootstrap/_variables.scss" />
+    <entry file="file://$PROJECT_DIR$/patternlab/source/sass/bootstrap/assets/stylesheets/bootstrap/_glyphicons.scss" />
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="85" column="108" lean-forward="false" selection-start-line="85" selection-start-column="108" selection-end-line="85" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/01-global/00-colors.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="64" lean-forward="false" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_macros/forms.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/public/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/04-forms/01-comment-form.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/04-forms/02-newsletter.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/04-forms/00-search.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/05-navigation/00-navbar.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/css/hidden.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/css/pattern-scaffolding.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/sass/_default-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/sass/_overrides.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/sass/component/_node.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_layouts/base.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="107" column="41" lean-forward="false" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternlab/source/_meta/_00-head.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
