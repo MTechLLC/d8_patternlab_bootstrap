@@ -1,13 +1,17 @@
 
 .header-bg {
   width: auto;
-  /*background-color: #88be14;*/
-  background-image: url("../../../../images/banner_test/25.jpg");
-  /*padding: 10px;*/
-  background-size: 100% 100%;
+  background: url(../../../../images/header/pattern.png),linear-gradient(to left,#7b4397,#dc2430);
+  height: 300px;
+  h1 {
+    text-align: center;
+    color: white;
+    margin-top: 110px;
+    font-size: 80px;
+  }
 }
 
-@media (max-width: 320px) {
+/*@media (max-width: 320px) {
   .header-bg {
     height: 150px;
   }
@@ -47,7 +51,7 @@
   .header-bg {
     height: 600px;
   }
-}
+}*/
 
 .navigation-clean {
   background-color: transparent;
