@@ -11,8 +11,8 @@
     "include()": {
       "pattern": "molecules-block--system-branding-block.html",
       "with": {
-        "site_logo": "../../../../images/header/icon.svg",
-        "site_name": "Pattern Lab",
+        "site_logo": "../../../../images/logo/logo.svg",
+        "site_name": "",
         "site_slogan": "",
         "t": ""
       }

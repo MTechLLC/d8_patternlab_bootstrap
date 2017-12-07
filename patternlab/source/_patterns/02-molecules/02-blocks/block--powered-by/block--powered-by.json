@@ -9,6 +9,6 @@
             "class": ["block__title"]
         }
     },
-    "label": "",
+    "label": "Powered By",
     "content": "<p>Powered by Pattern Lab</p>"
 }
