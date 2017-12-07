@@ -1,12 +1,10 @@
-{%
-set header_classes = [
-    'container-fluid',
-]
-%}
+{% set header_classes = [
+'container-fluid',
+] %}
 
-<section {{ attributes.addClass(header_class) }}>
+<div {{ content }}>
   {{ header }}
-    <div class="container-fluid header-bg">
-      <h1 class="text-center"> Header </h1>
-    </div>
-</section>
+  <div {{ banner }}>
+    <h1 class="text-center"> {{ title }} </h1>
+  </div>
+</div>

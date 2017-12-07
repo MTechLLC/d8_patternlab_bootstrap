@@ -9,30 +9,12 @@
   },
   "brand": {
     "include()": {
-      "pattern": "molecules-menu.html",
+      "pattern": "molecules-block--system-branding-block.html",
       "with": {
-        "items": [
-          {
-            "title": "",
-            "url": {
-              "Url()": {
-                "url": "#",
-                "options": {
-                  "attributes": {
-                    "class": "fa fa-drupal fa-2x"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "attributes": {
-          "Attribute()": {
-            "class": [
-              "navbar-nav"
-            ]
-          }
-        }
+        "site_logo": "../../../../images/header/icon.svg",
+        "site_name": "Pattern Lab",
+        "site_slogan": "",
+        "t": ""
       }
     }
   },
@@ -76,7 +58,7 @@
                     "url": "#",
                     "options": {
                       "attributes": {
-                        "class": "fa shopping-bag"
+                        "class": "fa fa-handshake-o"
                       }
                     }
                   }

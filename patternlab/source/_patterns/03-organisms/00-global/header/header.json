@@ -6,13 +6,28 @@
         "navbar_attributes": {
           "Attribute()": {
             "class": [
-              "navigation-style",
-              "navbar-default",
-              "navigation-clean"
+              "navbar-default"
             ]
           }
         }
       }
     }
-  }
+  },
+  "content": {
+    "Attribute()": {
+      "class": [
+        "container-fluid",
+        "main-page"
+      ]
+    }
+  },
+  "banner": {
+    "Attribute()": {
+      "class": [
+        "container-fluid",
+        "header-bg"
+      ]
+    }
+  },
+  "title": "Drupal 8 Pattern Lab Bootstrap"
 }
