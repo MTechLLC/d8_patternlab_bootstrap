@@ -1,2 +1,3 @@
-{# Pseudo-patterns cannot be used as pattern partials. #}
-{% extends "block.html.twig" %}
+{% if label %}
+  <a href="{{ url }}" {{ attributes }} target="_blank">{{ label }}</a>
+{% endif %}

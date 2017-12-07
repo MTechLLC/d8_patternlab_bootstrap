@@ -1,10 +1,112 @@
 {
-  "center_footer": {
-    "Attribute()": {
-      "class":["footer","container", "center-footer"]
+  "powered_by": {
+    "include()": {
+      "pattern": "molecules-block--powered-by",
+      "with": {
+        "label": "Copyright © 2017 MTech, LLC. All Rights Reserved.",
+        "url": "#",
+        "attributes": {
+          "Attribute()": {
+            "class":["powered-by"]
+          }
+        }
+      }
     }
   },
-  "footer": {
+  "design": {
+    "include()": {
+      "pattern": "molecules-block--powered-by",
+      "with": {
+        "label": "Web Design & Development by MTech, LLC.",
+        "url": "https://www.mtech-llc.com",
+        "attributes": {
+          "Attribute()": {
+            "class":["design"]
+          }
+        }
+      }
+    }
+  },
+  "logo": {
+    "include()": {
+      "pattern": "molecules-block--system-branding-block.html",
+      "with": {
+        "site_logo": "../../../../images/logo/logo.svg",
+        "site_name": "",
+        "site_slogan": "",
+        "t": ""
+      }
+    }
+  },
+  "menu_links": {
+    "include()": {
+      "pattern": "molecules-menu.html",
+      "with": {
+        "items": [
+          {
+            "title": "Lorem ipsum links",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-angle-double-right"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Lorem ipsum links",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-angle-double-right"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Lorem ipsum links",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-angle-double-right"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Lorem ipsum links",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-angle-double-right"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "attributes": {
+        "Attribute()": {
+          "class": [
+            "footer-nav"
+          ]
+        }
+      }
+    }
+  },
+  "icons": {
     "include()": {
       "pattern": "molecules-menu.html",
       "with": {
