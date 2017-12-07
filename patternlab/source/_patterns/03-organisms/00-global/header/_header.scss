@@ -1,4 +1,7 @@
-
+.main-page {
+  padding-left: 0;
+  padding-right: 0;
+}
 .header-bg {
   width: auto;
   background: url(../../../../images/header/pattern.png),linear-gradient(to left,#7b4397,#dc2430);
@@ -9,53 +12,6 @@
     margin-top: 110px;
     font-size: 80px;
   }
-}
-
-/*@media (max-width: 320px) {
-  .header-bg {
-    height: 150px;
-  }
-}
-
-@media (min-width: 320px) {
-  .header-bg {
-    height: 150px;
-  }
-}
-
-@media (min-width: 480px) {
-  .header-bg {
-    height: 200px;
-  }
-}
-
-@media (min-width: 768px) {
-  .header-bg {
-    height: 300px;
-  }
-}
-
-@media (max-width: 992px) {
-  .navbar-nav li {
-    margin-left: -15px;
-  }
-}
-
-@media (min-width: 992px) {
-  .header-bg {
-    height: 400px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .header-bg {
-    height: 600px;
-  }
-}*/
-
-.navigation-clean {
-  background-color: transparent;
-  border-color: transparent;
 }
 
 

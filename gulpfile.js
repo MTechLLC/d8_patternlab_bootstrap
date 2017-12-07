@@ -33,7 +33,7 @@ gulp.task('dev', ['node'], function () {
 
 gulp.task('watch', function () {
   return gulp
-    .watch('./sass/**/*.scss', ['prod'])
+    .watch('./**/*.scss', ['prod'])
     .on('change', function(event) {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
     });
